@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MatGame</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 MatGame</h1>
+
+    <p id="level">Nivel: 1</p>
+    <p id="bestLevel">🥇 Nivel más alto: 1</p>
+
+    <p id="question">¿Cuánto es 2 + 2?</p>
+    <input type="number" id="answer" placeholder="Tu respuesta"/>
+    <button onclick="checkAnswer()">Verificar</button>
+
+    <p id="feedback"></p>
+    <p id="score">Puntaje: 0</p>
+    <p id="timer">⏳ Tiempo: 30s</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
